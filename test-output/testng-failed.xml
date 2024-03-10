@@ -3,12 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="seleniumcoding50dayschallenge.Day3_cssPsuedo">
+      <class name="javascriptexecutordemo.Alert_t1">
         <methods>
+          <include name="teardown"/>
           <include name="setup"/>
-          <include name="demo"/>
+          <include name="demotwo"/>
         </methods>
-      </class> <!-- seleniumcoding50dayschallenge.Day3_cssPsuedo -->
+      </class> <!-- javascriptexecutordemo.Alert_t1 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
