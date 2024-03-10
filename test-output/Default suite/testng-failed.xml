@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="javascriptexecutordemo.Alert_t1">
+      <class name="javascriptexecutordemo.Generic_t5">
         <methods>
-          <include name="teardown"/>
           <include name="setup"/>
-          <include name="demotwo"/>
+          <include name="demoInputIntoDisabledTextbox"/>
+          <include name="teardown"/>
         </methods>
-      </class> <!-- javascriptexecutordemo.Alert_t1 -->
+      </class> <!-- javascriptexecutordemo.Generic_t5 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
