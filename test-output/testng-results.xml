@@ -1,85 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-03-10T18:08:32 IST" name="Default suite" finished-at="2024-03-10T18:09:00 IST" duration-ms="27960">
+  <suite started-at="2024-03-11T10:40:16 IST" name="Default suite" finished-at="2024-03-11T10:40:24 IST" duration-ms="7091">
     <groups>
     </groups>
-    <test started-at="2024-03-10T18:08:32 IST" name="Default test" finished-at="2024-03-10T18:09:00 IST" duration-ms="27960">
-      <class name="javascriptexecutordemo.Generic_t5">
-        <test-method is-config="true" signature="setup()[pri:0, instance:javascriptexecutordemo.Generic_t5@2c1b194a]" started-at="2024-03-10T18:08:32 IST" name="setup" finished-at="2024-03-10T18:08:33 IST" duration-ms="1840" status="PASS">
+    <test started-at="2024-03-11T10:40:16 IST" name="Default test" finished-at="2024-03-11T10:40:24 IST" duration-ms="7091">
+      <class name="seleniumcoding50dayschallenge.Day5_VerifyAcc">
+        <test-method is-config="true" signature="setup()[pri:0, instance:seleniumcoding50dayschallenge.Day5_VerifyAcc@13fd2ccd]" started-at="2024-03-11T10:40:16 IST" name="setup" finished-at="2024-03-11T10:40:18 IST" duration-ms="1881" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="demoTitle()[pri:1, instance:javascriptexecutordemo.Generic_t5@2c1b194a]" started-at="2024-03-10T18:08:33 IST" name="demoTitle" finished-at="2024-03-10T18:08:36 IST" duration-ms="2946" status="PASS">
+        <test-method signature="demo()[pri:0, instance:seleniumcoding50dayschallenge.Day5_VerifyAcc@13fd2ccd]" started-at="2024-03-11T10:40:18 IST" name="demo" finished-at="2024-03-11T10:40:23 IST" duration-ms="5026" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- demoTitle -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:javascriptexecutordemo.Generic_t5@2c1b194a]" started-at="2024-03-10T18:08:36 IST" name="teardown" finished-at="2024-03-10T18:08:37 IST" duration-ms="87" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:javascriptexecutordemo.Generic_t5@2c1b194a]" started-at="2024-03-10T18:08:37 IST" name="setup" finished-at="2024-03-10T18:08:37 IST" duration-ms="750" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="demoUrl()[pri:2, instance:javascriptexecutordemo.Generic_t5@2c1b194a]" started-at="2024-03-10T18:08:37 IST" name="demoUrl" finished-at="2024-03-10T18:08:40 IST" duration-ms="3104" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- demoUrl -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:javascriptexecutordemo.Generic_t5@2c1b194a]" started-at="2024-03-10T18:08:40 IST" name="teardown" finished-at="2024-03-10T18:08:40 IST" duration-ms="90" status="PASS">
+        </test-method> <!-- demo -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:seleniumcoding50dayschallenge.Day5_VerifyAcc@13fd2ccd]" started-at="2024-03-11T10:40:23 IST" name="teardown" finished-at="2024-03-11T10:40:24 IST" duration-ms="161" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:javascriptexecutordemo.Generic_t5@2c1b194a]" started-at="2024-03-10T18:08:40 IST" name="setup" finished-at="2024-03-10T18:08:41 IST" duration-ms="798" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="demoPostValue()[pri:3, instance:javascriptexecutordemo.Generic_t5@2c1b194a]" started-at="2024-03-10T18:08:41 IST" name="demoPostValue" finished-at="2024-03-10T18:08:45 IST" duration-ms="3275" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- demoPostValue -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:javascriptexecutordemo.Generic_t5@2c1b194a]" started-at="2024-03-10T18:08:45 IST" name="teardown" finished-at="2024-03-10T18:08:45 IST" duration-ms="93" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:javascriptexecutordemo.Generic_t5@2c1b194a]" started-at="2024-03-10T18:08:45 IST" name="setup" finished-at="2024-03-10T18:08:45 IST" duration-ms="757" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="demoCalendar()[pri:4, instance:javascriptexecutordemo.Generic_t5@2c1b194a]" started-at="2024-03-10T18:08:45 IST" name="demoCalendar" finished-at="2024-03-10T18:08:49 IST" duration-ms="3232" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- demoCalendar -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:javascriptexecutordemo.Generic_t5@2c1b194a]" started-at="2024-03-10T18:08:49 IST" name="teardown" finished-at="2024-03-10T18:08:49 IST" duration-ms="91" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:javascriptexecutordemo.Generic_t5@2c1b194a]" started-at="2024-03-10T18:08:49 IST" name="setup" finished-at="2024-03-10T18:08:50 IST" duration-ms="828" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="demoPageRefresh()[pri:5, instance:javascriptexecutordemo.Generic_t5@2c1b194a]" started-at="2024-03-10T18:08:50 IST" name="demoPageRefresh" finished-at="2024-03-10T18:08:55 IST" duration-ms="5518" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- demoPageRefresh -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:javascriptexecutordemo.Generic_t5@2c1b194a]" started-at="2024-03-10T18:08:55 IST" name="teardown" finished-at="2024-03-10T18:08:55 IST" duration-ms="104" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:javascriptexecutordemo.Generic_t5@2c1b194a]" started-at="2024-03-10T18:08:55 IST" name="setup" finished-at="2024-03-10T18:08:56 IST" duration-ms="804" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="demoInputIntoDisabledTextbox()[pri:6, instance:javascriptexecutordemo.Generic_t5@2c1b194a]" started-at="2024-03-10T18:08:56 IST" name="demoInputIntoDisabledTextbox" finished-at="2024-03-10T18:08:59 IST" duration-ms="3504" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- demoInputIntoDisabledTextbox -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:javascriptexecutordemo.Generic_t5@2c1b194a]" started-at="2024-03-10T18:08:59 IST" name="teardown" finished-at="2024-03-10T18:09:00 IST" duration-ms="93" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- javascriptexecutordemo.Generic_t5 -->
+      </class> <!-- seleniumcoding50dayschallenge.Day5_VerifyAcc -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
