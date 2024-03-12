@@ -5,17 +5,20 @@ import java.time.Duration;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Wait;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class Day4_Pending_GrowingBtn {
+public class Day4_GrowingBtn {
 	
 	WebDriver driver;
 
@@ -34,7 +37,8 @@ public class Day4_Pending_GrowingBtn {
 
 	}
 
-	// @AfterTest
+	
+	@AfterTest
 	void teardown() {
 		driver.quit();
 	}
@@ -44,10 +48,28 @@ public class Day4_Pending_GrowingBtn {
 
 		driver.get("https://testpages.eviltester.com/styled/challenges/growing-clickable.html");
 		
-		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-		wait.until(ExpectedConditions.presenceOfElementLocated((By) driver.findElement(By.cssSelector("button.grown"))));
+		// Find the button element by its ID
+		WebElement button = driver.findElement(By.id("growbutton"));
+		WebElement text = driver.findElement(By.id("growbuttonstatus"));
 		
-		driver.findElement(By.cssSelector("button#growbutton")).click();
+		new WebDriverWait(driver, Duration.ofSeconds(15)).until(ExpectedConditions.attributeContains(button, "class", "grown"));
+		
+		if (button.isEnabled()) {
+		button.click();
+		
+		Wait<WebDriver> wait = new WebDriverWait(driver, Duration.ofSeconds(5));
+		wait.until(d -> text.isDisplayed());
+		
+		if (text.isDisplayed()) {
+		String eventTriggerMsg = driver.findElement(By.xpath("//p[@id='growbuttonstatus']")).getText();
+		System.out.println(eventTriggerMsg);
+		
+		Assert.assertEquals(eventTriggerMsg,"Event Triggered");
+		}
+		}
+		else {
+		System.out.println("Not Clicked");
+		}
 		
 		
 	}
