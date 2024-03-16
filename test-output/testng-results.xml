@@ -2,24 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-03-12T13:59:09 IST" name="Default suite" finished-at="2024-03-12T13:59:16 IST" duration-ms="7052">
+  <suite started-at="2024-03-16T09:23:04 IST" name="Default suite" finished-at="2024-03-16T09:23:15 IST" duration-ms="10616">
     <groups>
     </groups>
-    <test started-at="2024-03-12T13:59:09 IST" name="Default test" finished-at="2024-03-12T13:59:16 IST" duration-ms="7052">
-      <class name="seleniumcoding50dayschallenge.Day4_Pending_GrowingBtn">
-        <test-method is-config="true" signature="setup()[pri:0, instance:seleniumcoding50dayschallenge.Day4_Pending_GrowingBtn@7db12bb6]" started-at="2024-03-12T13:59:09 IST" name="setup" finished-at="2024-03-12T13:59:11 IST" duration-ms="1809" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="demo()[pri:0, instance:seleniumcoding50dayschallenge.Day4_Pending_GrowingBtn@7db12bb6]" started-at="2024-03-12T13:59:11 IST" name="demo" finished-at="2024-03-12T13:59:16 IST" duration-ms="5124" status="PASS">
+    <test started-at="2024-03-16T09:23:04 IST" name="Default test" finished-at="2024-03-16T09:23:15 IST" duration-ms="10616">
+      <class name="seleniumcoding50dayschallenge.Day10_DownloadAndVerifyPDF">
+        <test-method signature="demo()[pri:0, instance:seleniumcoding50dayschallenge.Day10_DownloadAndVerifyPDF@194bcebf]" started-at="2024-03-16T09:23:04 IST" name="demo" finished-at="2024-03-16T09:23:15 IST" duration-ms="10590" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- demo -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:seleniumcoding50dayschallenge.Day4_Pending_GrowingBtn@7db12bb6]" started-at="2024-03-12T13:59:16 IST" name="teardown" finished-at="2024-03-12T13:59:16 IST" duration-ms="100" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- seleniumcoding50dayschallenge.Day4_Pending_GrowingBtn -->
+      </class> <!-- seleniumcoding50dayschallenge.Day10_DownloadAndVerifyPDF -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
