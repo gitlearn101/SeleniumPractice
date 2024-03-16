@@ -2,16 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-03-16T09:23:04 IST" name="Default suite" finished-at="2024-03-16T09:23:15 IST" duration-ms="10616">
+  <suite started-at="2024-03-16T15:10:39 IST" name="Default suite" finished-at="2024-03-16T15:10:52 IST" duration-ms="12497">
     <groups>
     </groups>
-    <test started-at="2024-03-16T09:23:04 IST" name="Default test" finished-at="2024-03-16T09:23:15 IST" duration-ms="10616">
-      <class name="seleniumcoding50dayschallenge.Day10_DownloadAndVerifyPDF">
-        <test-method signature="demo()[pri:0, instance:seleniumcoding50dayschallenge.Day10_DownloadAndVerifyPDF@194bcebf]" started-at="2024-03-16T09:23:04 IST" name="demo" finished-at="2024-03-16T09:23:15 IST" duration-ms="10590" status="PASS">
+    <test started-at="2024-03-16T15:10:39 IST" name="Default test" finished-at="2024-03-16T15:10:52 IST" duration-ms="12497">
+      <class name="seleniumcoding50dayschallenge.Day12_navigateMultipleUrls">
+        <test-method is-config="true" signature="setup()[pri:0, instance:seleniumcoding50dayschallenge.Day12_navigateMultipleUrls@942a29c]" started-at="2024-03-16T15:10:39 IST" name="setup" finished-at="2024-03-16T15:10:41 IST" duration-ms="1774" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="demo()[pri:0, instance:seleniumcoding50dayschallenge.Day12_navigateMultipleUrls@942a29c]" started-at="2024-03-16T15:10:41 IST" name="demo" finished-at="2024-03-16T15:10:52 IST" duration-ms="10553" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- demo -->
-      </class> <!-- seleniumcoding50dayschallenge.Day10_DownloadAndVerifyPDF -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:seleniumcoding50dayschallenge.Day12_navigateMultipleUrls@942a29c]" started-at="2024-03-16T15:10:52 IST" name="teardown" finished-at="2024-03-16T15:10:52 IST" duration-ms="148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- seleniumcoding50dayschallenge.Day12_navigateMultipleUrls -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
