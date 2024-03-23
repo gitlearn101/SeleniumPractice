@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-03-16T16:29:14 IST" name="Default suite" finished-at="2024-03-16T16:29:20 IST" duration-ms="6013">
+  <suite started-at="2024-03-23T09:49:13 IST" name="Default suite" finished-at="2024-03-23T09:49:18 IST" duration-ms="4769">
     <groups>
     </groups>
-    <test started-at="2024-03-16T16:29:14 IST" name="Default test" finished-at="2024-03-16T16:29:20 IST" duration-ms="6013">
-      <class name="seleniumcoding50dayschallenge.Day9_shadow">
-        <test-method is-config="true" signature="setup()[pri:0, instance:seleniumcoding50dayschallenge.Day9_shadow@942a29c]" started-at="2024-03-16T16:29:14 IST" name="setup" finished-at="2024-03-16T16:29:16 IST" duration-ms="1826" status="PASS">
+    <test started-at="2024-03-23T09:49:13 IST" name="Default test" finished-at="2024-03-23T09:49:18 IST" duration-ms="4769">
+      <class name="seleniumcoding50dayschallenge.Day13_VerifyDownload">
+        <test-method is-config="true" signature="setup()[pri:0, instance:seleniumcoding50dayschallenge.Day13_VerifyDownload@3f6f6701]" started-at="2024-03-23T09:49:13 IST" name="setup" finished-at="2024-03-23T09:49:15 IST" duration-ms="1766" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="demo()[pri:0, instance:seleniumcoding50dayschallenge.Day9_shadow@942a29c]" started-at="2024-03-16T16:29:16 IST" name="demo" finished-at="2024-03-16T16:29:20 IST" duration-ms="3925" status="PASS">
+        <test-method signature="run()[pri:0, instance:seleniumcoding50dayschallenge.Day13_VerifyDownload@3f6f6701]" started-at="2024-03-23T09:49:15 IST" name="run" finished-at="2024-03-23T09:49:17 IST" duration-ms="2878" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- demo -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:seleniumcoding50dayschallenge.Day9_shadow@942a29c]" started-at="2024-03-16T16:29:20 IST" name="teardown" finished-at="2024-03-16T16:29:20 IST" duration-ms="235" status="PASS">
+        </test-method> <!-- run -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:seleniumcoding50dayschallenge.Day13_VerifyDownload@3f6f6701]" started-at="2024-03-23T09:49:17 IST" name="teardown" finished-at="2024-03-23T09:49:18 IST" duration-ms="102" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- seleniumcoding50dayschallenge.Day9_shadow -->
+      </class> <!-- seleniumcoding50dayschallenge.Day13_VerifyDownload -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
