@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="seleniumcoding50dayschallenge.Day18_Scrollbar">
+      <class name="seleniumcoding50dayschallenge.Day19_Emoji">
         <methods>
           <include name="setup"/>
           <include name="testOne"/>
         </methods>
-      </class> <!-- seleniumcoding50dayschallenge.Day18_Scrollbar -->
+      </class> <!-- seleniumcoding50dayschallenge.Day19_Emoji -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-03-29T11:57:57 IST" name="Default suite" finished-at="2024-03-29T11:58:01 IST" duration-ms="3408">
+  <suite started-at="2024-03-31T15:45:21 IST" name="Default suite" finished-at="2024-03-31T15:45:29 IST" duration-ms="7907">
     <groups>
     </groups>
-    <test started-at="2024-03-29T11:57:57 IST" name="Default test" finished-at="2024-03-29T11:58:01 IST" duration-ms="3408">
-      <class name="seleniumcoding50dayschallenge.Day18_Scrollbar">
-        <test-method is-config="true" signature="setup()[pri:0, instance:seleniumcoding50dayschallenge.Day18_Scrollbar@3527942a]" started-at="2024-03-29T11:57:57 IST" name="setup" finished-at="2024-03-29T11:57:59 IST" duration-ms="1734" status="PASS">
+    <test started-at="2024-03-31T15:45:21 IST" name="Default test" finished-at="2024-03-31T15:45:29 IST" duration-ms="7907">
+      <class name="seleniumcoding50dayschallenge.Day19_Emoji">
+        <test-method is-config="true" signature="setup()[pri:0, instance:seleniumcoding50dayschallenge.Day19_Emoji@534a5a98]" started-at="2024-03-31T15:45:21 IST" name="setup" finished-at="2024-03-31T15:45:23 IST" duration-ms="1754" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testOne()[pri:0, instance:seleniumcoding50dayschallenge.Day18_Scrollbar@3527942a]" started-at="2024-03-29T11:57:59 IST" name="testOne" finished-at="2024-03-29T11:58:01 IST" duration-ms="1654" status="PASS">
+        <test-method signature="EmojiRating()[pri:0, instance:seleniumcoding50dayschallenge.Day19_Emoji@534a5a98]" started-at="2024-03-31T15:45:23 IST" name="EmojiRating" finished-at="2024-03-31T15:45:29 IST" duration-ms="6129" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testOne -->
-      </class> <!-- seleniumcoding50dayschallenge.Day18_Scrollbar -->
+        </test-method> <!-- EmojiRating -->
+      </class> <!-- seleniumcoding50dayschallenge.Day19_Emoji -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
