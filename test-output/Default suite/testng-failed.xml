@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="seleniumcoding50dayschallenge.Day21_Ecomm">
+      <class name="seleniumcoding50dayschallenge.Day22_ecommPriceList">
         <methods>
-          <include name="demo"/>
           <include name="setup"/>
+          <include name="run"/>
         </methods>
-      </class> <!-- seleniumcoding50dayschallenge.Day21_Ecomm -->
+      </class> <!-- seleniumcoding50dayschallenge.Day22_ecommPriceList -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
