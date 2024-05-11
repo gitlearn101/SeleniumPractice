@@ -3,12 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="seleniumcoding50dayschallenge.Day22_ecommPriceList">
+      <class name="seleniumcoding50dayschallenge.BlockImageToSpeedUpPageLoading">
         <methods>
-          <include name="setup"/>
           <include name="run"/>
+          <include name="teardown"/>
+          <include name="setup"/>
         </methods>
-      </class> <!-- seleniumcoding50dayschallenge.Day22_ecommPriceList -->
+      </class> <!-- seleniumcoding50dayschallenge.BlockImageToSpeedUpPageLoading -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
